@@ -8,8 +8,8 @@ from requests_html import HTMLSession
 
 
 # global variables to set (could get from user input if desired)
-URL = "https://www.youtube.com/playlist?list=PL8nO15pqbkPuAraU0QhEaPtBVxeE2rTFw" 
-playlistName = "Elias Jazz"
+URL = "url" 
+playlistName = "title"
 playlistDescription = "Converted from youtube playlist: " + URL
 
 
@@ -96,8 +96,8 @@ for tag in tags:
 
 #print(data)
 
-SPOTIPY_CLIENT_ID="934e5f9af47c45b4b812fa81999c8413"
-SPOTIPY_CLIENT_SECRET="d60d7b2f8a094cd8b7f14e4fd174af51"
+SPOTIPY_CLIENT_ID="client id"
+SPOTIPY_CLIENT_SECRET="client secret"
 SPOTIPY_REDIRECT_URI='https://www.spotify.com'
 
 scope = ["user-library-read","playlist-modify-private","playlist-modify-public"]
