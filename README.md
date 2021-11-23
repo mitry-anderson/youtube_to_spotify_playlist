@@ -2,12 +2,12 @@
 Takes in a youtube playlist and adds a spotify playlist with best guess matches for the songs, using the power of Python!
 
 The libraries used were:
-  requests
-  BeautifulSoup
-  spotipy
-  re
-  json
-  requests_html
+1. requests
+2. BeautifulSoup
+3. spotipy
+4. re
+5. json
+6. requests_html
 
 All of them can be added with pip. I used python 3.8.10, not sure if it will work with other versions.
 
